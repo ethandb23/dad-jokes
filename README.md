@@ -41,48 +41,55 @@
 
 
 
-During the planning stage, I began with pseudocode:
+<p>During the planning stage, I began with pseudocode:</p>
 
     
     
 
-<pre><code>
+<p>
 // Define a function to fetch a random joke from the API
 function getRandomJoke() {
+</p>
+<p>
   // Make an HTTP request to the API endpoint
   const response = fetch('https://icanhazdadjoke.com/', {
     headers: {
       'Accept': 'application/json'
     }
   });
-  
+  </p>
     // Parse the response JSON and return the joke
   const joke = response.json();
   return joke;
 }
-
+<p>
 // Define a function to display a joke on the screen
 function displayJoke(joke) {
+</p>
+<p>
   // Get the HTML element to display the joke
   const jokeElement = document.getElementById('joke');
-  
+</p>
+<p>
   // Set the text of the element to the joke
   jokeElement.textContent = joke;
 }
-
+</p>
+<p>
 // Define an event listener for a button to fetch and display a random joke
 const button = document.getElementById('button');
 button.addEventListener('click', async () => {
+</p>
+<p>
   // Fetch a random joke from the API
   const joke = await getRandomJoke();
-  
+</p>
+
+<p>
   // Display the joke on the screen
   displayJoke(joke);
 });
-
-</pre><code>
-
-
+</p>
 
 <p>This pseudocode defines two functions: getRandomJoke and displayJoke. The getRandomJoke function makes an HTTP request to the icanhazdadjokes API and returns a random joke. The displayJoke function takes a joke as an argument and displays it on the screen by setting the text of an HTML element.</p>
 <p>Finally, an event listener is defined for a button. When the button is clicked, it calls the getRandomJoke function to fetch a random joke, and then calls the displayJoke function to display it on the screen.</p>
