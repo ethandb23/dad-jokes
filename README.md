@@ -154,7 +154,7 @@ export default App;
 
 <p>When encountering errors in code, I often rely on two essential techniques to identify the source of the problem: console logging and breakpoints. By strategically placing console.log() statements throughout my code, I can see the value of variables at various points in the execution, helping me to pinpoint where the issue might be originating. Additionally, using breakpoints allows me to pause execution at a specific line and observe the state of the program. Additionally, I thoroughly read the documentation for the API to understand the expected format of the data, which helped me identify and resolve any issues with the data returned by the API.</p>
 
-
+<h2>Wins and Takeaways</h2>
 <p>Undertaking a new project is always an opportunity for growth and learning, and this recent experience was no exception. Throughout this project, I gained a deeper understanding of several key topics, including asynchronous JavaScript and working with APIs. Asynchronous programming can be a challenge to master, but this project provided me with ample opportunities to hone my skills in this area. I learned how to use Promises, async/await, and other techniques to manage asynchronous code and ensure smooth execution.
 </p>
 
